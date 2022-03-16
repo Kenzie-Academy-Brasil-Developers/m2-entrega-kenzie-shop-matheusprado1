@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    margin: auto;
+}
+  
+.produtos {
+    margin-top: 20px;
+    padding: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid #0074b4;
+    border-radius: 2rem;
+}
+  
+p {
+    left: 14px;
+    top: 290px;
+    margin-bottom: 7px;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.0350em;
+    line-height: 1.5;
+    width: 250px;
+    text-align: center;
+}
+  
+img {
+    margin-top: 10px;
+    width: 150px;
+}
+  
+h2 {
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 15px;
+  
+}
+  
+button {
+    height: 40px;
+    width: 150px;
+    left: 0px;
+    top: -8px;
+    border-radius: 2rem;
+    background: #FFFFFF;
+    border: 1px solid #9DC2FF;
+    font-size: 20px;
+    color: #0074b4;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    color: red;
+}
+
+  
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: #0074b4;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+  
+h3 {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 700;
+    color: #696969;
+    margin: 0px;
+    text-decoration: line-through
+}
+  
+span {
+    color: gold;
+    font-size: 20px;
+
+}
